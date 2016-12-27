@@ -9,7 +9,10 @@ inicio : parametro
 
 
 ## proceso
-<p>si vacationes es verdadero dormimos sino no dormimos si weekday es verdadero no dormimos si no dormimos</p>
+<p>si vacaciones es verdadero dormimos </p>
+  <p>sino no dormimos</p>
+  <p>si weekday es verdadero no dormimos</p>
+  <p>si no dormimos</p>
 
  fin
  
