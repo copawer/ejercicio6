@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	   <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="Bootstrap.css">
+		<title>¿dormimos?</title>
+	</head>
+	<body>
+   <div class="text-center">
+	   <div class="container">
+	   <h1 class="text-center" style="color:crimson">¿Dormimos?</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+					<label for="dia" style="color:salmon; font-size:17px">¿Qué día es hoy?</label>
+					<select class="form-control" id="dia">
+						<option value="1">Lunes</option>
+						<option value="2">Martes</option>
+						<option value="3">Miércoles</option>
+						<option value="4">Jueves</option>
+						<option value="5">Viernes</option>
+						<option value="6">Sábado</option>
+						<option value="7">Domingo</option>
+					</select>
+				</div>
+            </div>
+            <div class="col-md-6">
+				<div class="form-group">
+					<label for="vacaciones" style="color:salmon; font-size:17px">¿Estás de vacaciones?</label>
+					<select class="form-control" id="vacaciones">
+						<option value="1">Si</option>
+						<option value="2">No</option>
+					</select>
+				</div>
+				
+            </div>
+	        </div>
+	        
+	        <div class="text-center">
+			    <button onclick="calcular()" class="btn btn-primary" style="margin:10px 0px">Evaluar</button>
+				<h4 class="text-info">Hoy</h4>
+				<div id="salida" style="font-size:50px;" class="text-center">-</div>
+				<h4 class="text-info">podrás dormir</h4>
+	        </div>
+       </div>        </div>
+	</body>
+	<script src="main.js"></script>
+</html>
